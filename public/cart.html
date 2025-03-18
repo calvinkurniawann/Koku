@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Cart | Koku</title>
+</head>
+<body class="bg-gray-100">
+    <section>
+        <div class="m-5 p-3 bg-white h-full">
+            <div class="flex justify-between items-center mb-5 px-5">
+                <a href="index.html" class="px-3 py-2 bg-black text-white rounded">Kembali</a>
+                <h1 class="text-5xl font-semibold mx-auto">Keranjang</h1>
+                <div></div>
+            </div>
+            <table class="min-w-full bg-white border border-gray-300 rounded-md overflow-hidden">
+                <tbody class="align-middle text-center">
+                    <tr class="flex items-center justify-between mx-5 py-4 border-b">
+                        <td class="py-2 w-48 align-middle">
+                            <div class="w-48 h-48 block overflow-hidden">
+                                <img class="rounded-t-lg object-contain w-full h-full" src="../assets/nasgor.jpg" alt="Produk 1" />
+                            </div>
+                        </td>
+                        <td class="py-2 px-4 align-middle">Nasi Goreng</td>
+                        <td class="py-9 px-4 align-middle flex flex-row items-center justify-center">
+                            <div class="flex border-[1px] items-center">
+                                <button class="flex text-center items-center justify-center w-[25px] h-[25px] border-gray-700 rounded-lg transition-all duration-300 active:scale-95 text-white hover:brightness-125">
+                                    <svg class="flex w-2 h-2 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 1v16M1 9h16" />
+                                    </svg>
+                                </button>
+                                <p class="px-[9px] border-x-[1px]">1</p>
+                                <button class="flex text-center items-center justify-center w-[25px] h-[25px] border-gray-700 rounded-lg transition-all duration-300 active:scale-95 text-white hover:brightness-125">
+                                    <svg class="flex w-2 h-2 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 2">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M1 1h16" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </td>
+                        <td class="py-2 px-4 align-middle">Rp. 12,000</td>
+                        <td class="py-2 px-10 align-middle">
+                            <button class="text-red-500 hover:text-red-700 focus:outline-none focus:text-red-700">
+                                Remove
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="flex items-center justify-between mx-5 py-4 border-b">
+                        <td class="py-2 w-48 align-middle">
+                            <div class="w-48 h-48 block overflow-hidden">
+                                <img class="rounded-t-lg object-contain w-full h-full" src="../assets/mie.JPG" alt="Produk 2" />
+                            </div>
+                        </td>
+                        <td class="py-2 px-4 align-middle">Mie Ayam</td>
+                        <td class="py-9 px-4 align-middle flex flex-row items-center justify-center">
+                            <div class="flex border-[1px] items-center">
+                                <button class="flex text-center items-center justify-center w-[25px] h-[25px] border-gray-700 rounded-lg transition-all duration-300 active:scale-95 text-white hover:brightness-125">
+                                    <svg class="flex w-2 h-2 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 1v16M1 9h16" />
+                                    </svg>
+                                </button>
+                                <p class="px-[9px] border-x-[1px]">1</p>
+                                <button class="flex text-center items-center justify-center w-[25px] h-[25px] border-gray-700 rounded-lg transition-all duration-300 active:scale-95 text-white hover:brightness-125">
+                                    <svg class="flex w-2 h-2 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 2">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M1 1h16" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </td>
+                        <td class="py-2 px-4 align-middle">Rp. 10,000</td>
+                        <td class="py-2 px-10 align-middle">
+                            <button class="text-red-500 hover:text-red-700 focus:outline-none focus:text-red-700">
+                                Remove
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="flex items-center justify-between mx-5 py-5 border-t-2">
+                        <td class="py-2 px-4 align-middle"></td>
+                        <td class="py-2 px-4 align-middle">Ongkos Kirim</td>
+                        <td class="py-2 px-4 align-middle"></td>
+                        <td class="py-2 px-4 align-middle">Rp. 5,000</td>
+                        <td class="py-2 px-4 align-middle"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="w-full flex justify-center items-center">
+            <div class="bg-white rounded-md shadow-md flex items-center justify-between w-full mx-5">
+                <p class="text-lg font-semibold p-5">Total Pesanan : Rp. 27,000</p>
+                <button type="button" id="checkoutButton" class="px-6 py-2 bg-blue-500 text-white mr-5">
+                    Checkout
+                </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

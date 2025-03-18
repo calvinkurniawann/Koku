@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Koku</title>
+    <header class="container mx-auto px-4 py-4 flex justify-between items-center fixed md:relative z-20 bg-white">
+        <div class="flex items-center">
+            <a href="#" class="text-2xl font-bold">
+                <span class="text-primary">Ko</span><span class="text-secondary">Ku</span>
+            </a>
+        </div>
+    
+        <nav class="hidden md:flex space-x-8">
+            <a href="#" class="font-medium hover:text-primary transition">Beranda</a>
+            <a href="#" class="font-medium hover:text-primary transition">Kantin</a>
+            <a href="#" class="font-medium hover:text-primary transition">Kategori</a>
+            <a href="#" class="font-medium hover:text-primary transition">Delivery</a>
+        </nav>
+        <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+    </header>
+</head>
+<body class="">
+    <section class="bg-gray-100 relative">
+        <div class="container mx-auto">
+            <div class="relative overflow-hidden rounded-lg h-64 md:h-96 mt-5">
+                <img src="../assets/bg.jpg" alt="Banner Kantin Online" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-black opacity-40"></div>
+                <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
+                    <h1 class="text-3xl md:text-5xl font-bold text-center">Kenyang Tanpa Ribet!</h1>
+                    <p class="text-lg md:text-xl text-center mt-2">Pesan Makanan Favoritmu Sekarang Juga.</p>
+                </div>
+            </div>
+    
+            <h1 class="font-semibold ml-4 mt-10 mb-0 text-4xl">Makanan : </h1>
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full lg:w-1/4 p-4">
+                    <div class="bg-white rounded-lg shadow-md p-4 ">
+                        <img src="../assets/tomyum.png" alt="Burger" class="w-full h-[200px] object-cover mb-2">
+                        <h2 class="text-xl font-bold text-center">Tomyum</h2>
+                        <p class="text-sm text-center">Rp 15.000</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/4 p-4">
+                    <div class="bg-white rounded-lg shadow-md p-4 ">
+                        <img src="../assets/nasgor.jpg" alt="Nasi Goreng" class="w-full h-[200px] object-cover mb-2">
+                        <h2 class="text-xl font-bold text-center">Nasi Goreng</h2>
+                        <p class="text-sm text-center">Rp 12.000</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/4 p-4">
+                    <div class="bg-white rounded-lg shadow-md p-4 ">
+                        <img src="../assets/mie.JPG" alt="Mie Ayam" class="w-full h-[200px] object-cover mb-2">
+                        <h2 class="text-xl font-bold text-center">Mie Ayam</h2>
+                        <p class="text-sm text-center">Rp 10.000</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/4 p-4">
+                    <div class="bg-white rounded-lg shadow-md p-4 ">
+                        <img src="../assets/bakso.jpeg" alt="Bakso" class="w-full h-[200px] object-cover mb-2">
+                        <h2 class="text-xl font-bold text-center">Bakso</h2>
+                        <p class="text-sm text-center">Rp 8.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
